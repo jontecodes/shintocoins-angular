@@ -1,0 +1,12 @@
+* {
+  vertical-align: top;
+}
+#container{
+  margin: 0 auto;
+}
+
+.header button, img {
+  padding: 10px;
+  margin-right: 8px;
+  border-radius: 5px;
+}

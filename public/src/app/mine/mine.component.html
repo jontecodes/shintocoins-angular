@@ -1,0 +1,8 @@
+<h1>Mine ShintoCoins</h1>
+<h4>Here you can mine ShintoCoins be being the first to solve the problem:</h4>
+<h4>What is the name of the Dev that created this application?</h4>
+<p>{{question | json }}</p>
+<form (submit)="mineSubmit()">
+  <input type="text" name="question.answer" [(ngModel)]="question.answer" placeholder="answer">
+  <input type="submit" value="Mine">
+</form>
